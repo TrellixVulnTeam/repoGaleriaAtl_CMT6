@@ -1,18 +1,22 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .footer {
-  background-color: #C2BEBB;
+  background-color: #CCCECC;
 }
-.footer ul {
+.footer nav {
   margin-bottom: 0;
 }
-.footer ul li {
+.footer nav ul {
+  margin-bottom: 0;
+}
+.footer nav li {
   list-style: none;
 }
-.footer ul li img {
+.footer nav li img {
   width: 38px;
 }
 
