@@ -70,4 +70,9 @@
 .cards__art p {
   display: flex;
   justify-content: center;
+}
+
+.btn {
+  padding: 24px;
+  margin: 24px;
 }/*# sourceMappingURL=style.css.map */

@@ -35,3 +35,8 @@
         justify-content: center;
     }
 }
+
+.btn{
+    padding: map-get($boton , padding );
+    margin: map-get($boton , margin );
+}
