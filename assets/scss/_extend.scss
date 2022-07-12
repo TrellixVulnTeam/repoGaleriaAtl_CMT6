@@ -1,0 +1,18 @@
+.cardUbi1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    .cardUbi1 img{
+        border-radius: 5px;
+        .cardUbi1 h4{
+            margin: top 20px;
+            .cardUbi1 p{
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.cardUbi2{
+    @extend .cardUbi1;
+}

@@ -3,6 +3,9 @@
 @import "variables.scss";
 @import "footer.scss";
 @import "animaciones.scss";
+@import "mixin.scss";
+@import "extend.scss";
+
 .main{
     font-size: 22px;
     h2{
@@ -27,44 +30,9 @@
     width: 380px;
 }
 
-@mixin cards {
-    border: solid 1px;
-    border-radius: 10px;
-    background-color: whitesmoke;
-    img{
-        width: 300px;
-        border-radius: 10px;
-        }
-        p{
-            display: flex;
-            justify-content: center;
-            margin-top:10px;
-        }
-}
-.card1{
-    @include cards;
-}
-.card2{
-    @include cards;
-}
-.card3{
-    @include cards;
-}.card4{
-    @include cards;
-}.card5{
-    @include cards;
-}.card6{
-    @include cards;
-}.card7{
-    @include cards;
-}.card8{
-    @include cards;
-}.card9{
-    @include cards;
-}.card10{
-    @include cards;
-}.card11{
-    @include cards;
-}.card12{
-    @include cards;
-}
+
+
+
+
+
+

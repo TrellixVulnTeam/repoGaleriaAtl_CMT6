@@ -28,40 +28,12 @@
   transform: scale(1.1);
 }
 
-.card.grow {
+.img1.grow {
   transition: all 0.1s ease-in-out;
 }
 
-.card:hover {
+.img1:hover {
   transform: scale(1.1);
-  padding: 1px;
-}
-
-.main {
-  font-size: 22px;
-}
-.main h2 {
-  font-family: "Italiana", serif;
-}
-.main p {
-  font-family: "Barlow", sans-serif;
-}
-
-.aside {
-  display: flex;
-  flex-direction: row;
-}
-.aside img {
-  width: 30%;
-  padding: 5px;
-}
-
-.imgExh {
-  width: 380px;
-}
-
-.imgExh1 {
-  width: 380px;
 }
 
 .card1 {
@@ -242,4 +214,46 @@
   display: flex;
   justify-content: center;
   margin-top: 10px;
+}
+
+.cardUbi1, .cardUbi2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+}
+.cardUbi1 .cardUbi1 img, .cardUbi2 .cardUbi1 img, .cardUbi1 .cardUbi2 img, .cardUbi2 .cardUbi2 img {
+  border-radius: 5px;
+}
+.cardUbi1 .cardUbi1 img .cardUbi1 h4, .cardUbi2 .cardUbi1 img .cardUbi1 h4, .cardUbi1 .cardUbi2 img .cardUbi1 h4, .cardUbi2 .cardUbi2 img .cardUbi1 h4, .cardUbi1 .cardUbi1 img .cardUbi2 h4, .cardUbi2 .cardUbi1 img .cardUbi2 h4, .cardUbi1 .cardUbi2 img .cardUbi2 h4, .cardUbi2 .cardUbi2 img .cardUbi2 h4 {
+  margin: top 20px;
+}
+.cardUbi1 .cardUbi1 img .cardUbi1 h4 .cardUbi1 p, .cardUbi2 .cardUbi1 img .cardUbi1 h4 .cardUbi1 p, .cardUbi1 .cardUbi2 img .cardUbi1 h4 .cardUbi1 p, .cardUbi2 .cardUbi2 img .cardUbi1 h4 .cardUbi1 p, .cardUbi1 .cardUbi1 img .cardUbi2 h4 .cardUbi1 p, .cardUbi2 .cardUbi1 img .cardUbi2 h4 .cardUbi1 p, .cardUbi1 .cardUbi2 img .cardUbi2 h4 .cardUbi1 p, .cardUbi2 .cardUbi2 img .cardUbi2 h4 .cardUbi1 p, .cardUbi1 .cardUbi1 img .cardUbi1 h4 .cardUbi2 p, .cardUbi2 .cardUbi1 img .cardUbi1 h4 .cardUbi2 p, .cardUbi1 .cardUbi2 img .cardUbi1 h4 .cardUbi2 p, .cardUbi2 .cardUbi2 img .cardUbi1 h4 .cardUbi2 p, .cardUbi1 .cardUbi1 img .cardUbi2 h4 .cardUbi2 p, .cardUbi2 .cardUbi1 img .cardUbi2 h4 .cardUbi2 p, .cardUbi1 .cardUbi2 img .cardUbi2 h4 .cardUbi2 p, .cardUbi2 .cardUbi2 img .cardUbi2 h4 .cardUbi2 p {
+  margin-top: 20px;
+}
+
+.main {
+  font-size: 22px;
+}
+.main h2 {
+  font-family: "Italiana", serif;
+}
+.main p {
+  font-family: "Barlow", sans-serif;
+}
+
+.aside {
+  display: flex;
+  flex-direction: row;
+}
+.aside img {
+  width: 30%;
+  padding: 5px;
+}
+
+.imgExh {
+  width: 380px;
+}
+
+.imgExh1 {
+  width: 380px;
 }/*# sourceMappingURL=style.css.map */
