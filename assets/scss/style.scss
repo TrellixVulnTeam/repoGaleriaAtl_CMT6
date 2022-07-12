@@ -26,17 +26,45 @@
 .imgExh1{
     width: 380px;
 }
-.cards__art{
-    img{
-    width: 300px;
-    }
-    p{
-        display: flex;
-        justify-content: center;
-    }
-}
 
-.btn{
-    padding: map-get($boton , padding );
-    margin: map-get($boton , margin );
+@mixin cards {
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    img{
+        width: 300px;
+        border-radius: 10px;
+        }
+        p{
+            display: flex;
+            justify-content: center;
+            margin-top:10px;
+        }
+}
+.card1{
+    @include cards;
+}
+.card2{
+    @include cards;
+}
+.card3{
+    @include cards;
+}.card4{
+    @include cards;
+}.card5{
+    @include cards;
+}.card6{
+    @include cards;
+}.card7{
+    @include cards;
+}.card8{
+    @include cards;
+}.card9{
+    @include cards;
+}.card10{
+    @include cards;
+}.card11{
+    @include cards;
+}.card12{
+    @include cards;
 }

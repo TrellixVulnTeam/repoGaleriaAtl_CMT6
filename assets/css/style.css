@@ -64,15 +64,182 @@
   width: 380px;
 }
 
-.cards__art img {
-  width: 300px;
+.card1 {
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: whitesmoke;
 }
-.cards__art p {
+.card1 img {
+  width: 300px;
+  border-radius: 10px;
+}
+.card1 p {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
-.btn {
-  padding: 24px;
-  margin: 24px;
+.card2 {
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.card2 img {
+  width: 300px;
+  border-radius: 10px;
+}
+.card2 p {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card3 {
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.card3 img {
+  width: 300px;
+  border-radius: 10px;
+}
+.card3 p {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card4 {
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.card4 img {
+  width: 300px;
+  border-radius: 10px;
+}
+.card4 p {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card5 {
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.card5 img {
+  width: 300px;
+  border-radius: 10px;
+}
+.card5 p {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card6 {
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.card6 img {
+  width: 300px;
+  border-radius: 10px;
+}
+.card6 p {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card7 {
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.card7 img {
+  width: 300px;
+  border-radius: 10px;
+}
+.card7 p {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card8 {
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.card8 img {
+  width: 300px;
+  border-radius: 10px;
+}
+.card8 p {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card9 {
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.card9 img {
+  width: 300px;
+  border-radius: 10px;
+}
+.card9 p {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card10 {
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.card10 img {
+  width: 300px;
+  border-radius: 10px;
+}
+.card10 p {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card11 {
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.card11 img {
+  width: 300px;
+  border-radius: 10px;
+}
+.card11 p {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card12 {
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.card12 img {
+  width: 300px;
+  border-radius: 10px;
+}
+.card12 p {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */
