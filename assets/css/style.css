@@ -222,10 +222,10 @@
   background-color: whitesmoke;
 }
 .cardUbi1 .cardUbi1 img, .cardUbi2 .cardUbi1 img, .cardUbi1 .cardUbi2 img, .cardUbi2 .cardUbi2 img {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .cardUbi1 .cardUbi1 img .cardUbi1 h4, .cardUbi2 .cardUbi1 img .cardUbi1 h4, .cardUbi1 .cardUbi2 img .cardUbi1 h4, .cardUbi2 .cardUbi2 img .cardUbi1 h4, .cardUbi1 .cardUbi1 img .cardUbi2 h4, .cardUbi2 .cardUbi1 img .cardUbi2 h4, .cardUbi1 .cardUbi2 img .cardUbi2 h4, .cardUbi2 .cardUbi2 img .cardUbi2 h4 {
-  margin: top 20px;
+  margin-top: 20px;
 }
 .cardUbi1 .cardUbi1 img .cardUbi1 h4 .cardUbi1 p, .cardUbi2 .cardUbi1 img .cardUbi1 h4 .cardUbi1 p, .cardUbi1 .cardUbi2 img .cardUbi1 h4 .cardUbi1 p, .cardUbi2 .cardUbi2 img .cardUbi1 h4 .cardUbi1 p, .cardUbi1 .cardUbi1 img .cardUbi2 h4 .cardUbi1 p, .cardUbi2 .cardUbi1 img .cardUbi2 h4 .cardUbi1 p, .cardUbi1 .cardUbi2 img .cardUbi2 h4 .cardUbi1 p, .cardUbi2 .cardUbi2 img .cardUbi2 h4 .cardUbi1 p, .cardUbi1 .cardUbi1 img .cardUbi1 h4 .cardUbi2 p, .cardUbi2 .cardUbi1 img .cardUbi1 h4 .cardUbi2 p, .cardUbi1 .cardUbi2 img .cardUbi1 h4 .cardUbi2 p, .cardUbi2 .cardUbi2 img .cardUbi1 h4 .cardUbi2 p, .cardUbi1 .cardUbi1 img .cardUbi2 h4 .cardUbi2 p, .cardUbi2 .cardUbi1 img .cardUbi2 h4 .cardUbi2 p, .cardUbi1 .cardUbi2 img .cardUbi2 h4 .cardUbi2 p, .cardUbi2 .cardUbi2 img .cardUbi2 h4 .cardUbi2 p {
   margin-top: 20px;
