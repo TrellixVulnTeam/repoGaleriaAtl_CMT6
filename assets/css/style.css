@@ -21,6 +21,26 @@
   width: 38px;
 }
 
+.footerNews, .footerUbi {
+  background-color: #CCCECC;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.footerNews nav, .footerUbi nav {
+  margin-bottom: 0%;
+}
+.footerNews nav ul, .footerUbi nav ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.footerNews nav li, .footerUbi nav li {
+  list-style: none;
+}
+.footerNews nav li img, .footerUbi nav li img {
+  width: 38px;
+}
+
 .img1.grow {
   transition: all 0.1s ease-in-out;
 }
