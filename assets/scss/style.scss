@@ -6,6 +6,13 @@
 @import "mixin.scss";
 @import "extend.scss";
 
+.navbar{
+    font-family: 'Tiro Kannada', serif;
+    font-size: 20px;
+}
+.bodyExh h4{
+    font-family: 'Barlow', sans-serif;
+}
 .mainNews{
     display: flex;
     flex-direction: column;
@@ -16,8 +23,9 @@
 }
 .main{
     font-size: 22px;
-    h2{
+    h1{
         font-family: 'Italiana', serif;
+        margin-top: 20px;
     }
     p{
         padding: 20px;

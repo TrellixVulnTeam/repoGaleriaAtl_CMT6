@@ -253,6 +253,15 @@
   margin-top: 20px;
 }
 
+.navbar {
+  font-family: "Tiro Kannada", serif;
+  font-size: 20px;
+}
+
+.bodyExh h4 {
+  font-family: "Barlow", sans-serif;
+}
+
 .mainNews {
   display: flex;
   flex-direction: column;
@@ -265,8 +274,9 @@
 .main {
   font-size: 22px;
 }
-.main h2 {
+.main h1 {
   font-family: "Italiana", serif;
+  margin-top: 20px;
 }
 .main p {
   padding: 20px;
