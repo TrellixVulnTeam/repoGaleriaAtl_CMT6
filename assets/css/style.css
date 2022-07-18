@@ -238,7 +238,8 @@
 }
 
 .cardUbi1, .cardUbi2 {
-  margin-top: 20px;
+  font-size: 19px;
+  margin-top: 25px;
   margin-bottom: 20px;
   background-color: whitesmoke;
 }
@@ -252,6 +253,15 @@
   margin-top: 20px;
 }
 
+.mainNews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainNews img {
+  width: 200px;
+}
+
 .main {
   font-size: 22px;
 }
@@ -259,6 +269,7 @@
   font-family: "Italiana", serif;
 }
 .main p {
+  padding: 20px;
   font-family: "Barlow", sans-serif;
 }
 

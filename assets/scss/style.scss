@@ -6,13 +6,23 @@
 @import "mixin.scss";
 @import "extend.scss";
 
+.mainNews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 200px;
+    }
+}
 .main{
     font-size: 22px;
     h2{
         font-family: 'Italiana', serif;
     }
     p{
+        padding: 20px;
         font-family: 'Barlow', sans-serif;
+        
     }
 }
 .aside{
