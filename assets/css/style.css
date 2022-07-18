@@ -42,15 +42,15 @@
 }
 
 .img1.grow {
-  transition: all 0.1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .img1:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .img1.grow {
-  transition: all 0.1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .img1:hover {
@@ -278,8 +278,9 @@
   flex-direction: row;
 }
 .aside img {
-  width: 30%;
-  padding: 5px;
+  width: 340px;
+  padding: 2px;
+  margin: 2px;
 }
 
 .imgExh {
