@@ -1,19 +1,6 @@
-.cardUbi1{
-    font-size: 19px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    background-color: whitesmoke;
-    .cardUbi1 img{
-        border-radius: 10px;
-        .cardUbi1 h4{
-            margin-top: 20px;
-            .cardUbi1 p{
-                margin-top: 20px;
-            }
-        }
-    }
+.cardLocation2{
+    @extend .cardLocation
 }
-
-.cardUbi2{
-    @extend .cardUbi1;
+.footerUbi{
+    @extend .footerNews
 }

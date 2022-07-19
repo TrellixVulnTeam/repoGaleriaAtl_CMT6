@@ -23,7 +23,7 @@
 
 .footerNews, .footerUbi {
   background-color: #CCCECC;
-  position: fixed;
+  position: relative;
   width: 100%;
   bottom: 0;
 }
@@ -237,22 +237,6 @@
   margin-top: 10px;
 }
 
-.cardUbi1, .cardUbi2 {
-  font-size: 19px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-color: whitesmoke;
-}
-.cardUbi1 .cardUbi1 img, .cardUbi2 .cardUbi1 img, .cardUbi1 .cardUbi2 img, .cardUbi2 .cardUbi2 img {
-  border-radius: 10px;
-}
-.cardUbi1 .cardUbi1 img .cardUbi1 h4, .cardUbi2 .cardUbi1 img .cardUbi1 h4, .cardUbi1 .cardUbi2 img .cardUbi1 h4, .cardUbi2 .cardUbi2 img .cardUbi1 h4, .cardUbi1 .cardUbi1 img .cardUbi2 h4, .cardUbi2 .cardUbi1 img .cardUbi2 h4, .cardUbi1 .cardUbi2 img .cardUbi2 h4, .cardUbi2 .cardUbi2 img .cardUbi2 h4 {
-  margin-top: 20px;
-}
-.cardUbi1 .cardUbi1 img .cardUbi1 h4 .cardUbi1 p, .cardUbi2 .cardUbi1 img .cardUbi1 h4 .cardUbi1 p, .cardUbi1 .cardUbi2 img .cardUbi1 h4 .cardUbi1 p, .cardUbi2 .cardUbi2 img .cardUbi1 h4 .cardUbi1 p, .cardUbi1 .cardUbi1 img .cardUbi2 h4 .cardUbi1 p, .cardUbi2 .cardUbi1 img .cardUbi2 h4 .cardUbi1 p, .cardUbi1 .cardUbi2 img .cardUbi2 h4 .cardUbi1 p, .cardUbi2 .cardUbi2 img .cardUbi2 h4 .cardUbi1 p, .cardUbi1 .cardUbi1 img .cardUbi1 h4 .cardUbi2 p, .cardUbi2 .cardUbi1 img .cardUbi1 h4 .cardUbi2 p, .cardUbi1 .cardUbi2 img .cardUbi1 h4 .cardUbi2 p, .cardUbi2 .cardUbi2 img .cardUbi1 h4 .cardUbi2 p, .cardUbi1 .cardUbi1 img .cardUbi2 h4 .cardUbi2 p, .cardUbi2 .cardUbi1 img .cardUbi2 h4 .cardUbi2 p, .cardUbi1 .cardUbi2 img .cardUbi2 h4 .cardUbi2 p, .cardUbi2 .cardUbi2 img .cardUbi2 h4 .cardUbi2 p {
-  margin-top: 20px;
-}
-
 .navbar {
   font-family: "Tiro Kannada", serif;
   font-size: 20px;
@@ -299,4 +283,30 @@
 
 .imgExh1 {
   width: 380px;
+}
+
+.cardsLoc {
+  justify-content: space-around;
+}
+.cardsLoc img {
+  width: 500px;
+}
+
+.cardLocation, .cardLocation2 {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: whitesmoke;
+  box-shadow: 3px 1px whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardLocation h4, .cardLocation2 h4 {
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+.cardLocation p, .cardLocation2 p {
+  font-family: "Barlow", sans-serif;
 }/*# sourceMappingURL=style.css.map */

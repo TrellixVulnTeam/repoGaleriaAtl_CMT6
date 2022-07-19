@@ -48,6 +48,31 @@
     width: 380px;
 }
 
+.cardsLoc{
+    justify-content: space-around;
+    img{
+        width: 500px;
+    }
+}
+.cardLocation{
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    box-shadow: 3px 1px whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h4{
+        margin-top: 10px;
+        margin-bottom: 18px;
+    }
+    p{
+        font-family: 'Barlow', sans-serif;
+    }
+}
+
 
 
 
