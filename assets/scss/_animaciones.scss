@@ -1,12 +1,7 @@
-.img1.grow{
-    transition: all 1s ease-in-out;
-}
 .img1:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 1s;
 }
-.img1.grow {
-    transition: all 1s ease-in-out;
-}
-.img1:hover {
+.img2:hover{
     transform: scale(1.1);
 }
